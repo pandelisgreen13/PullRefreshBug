@@ -22,7 +22,7 @@ class MainViewModel : ViewModel() {
        //     delay(100)
             mutableUiFlow.update {
                 it.copy(isLoading = false,
-                    items = listOf()
+                    items = list()
                 )
             }
 
